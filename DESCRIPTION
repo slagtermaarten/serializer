@@ -1,9 +1,9 @@
-Package: serializeR
+Package: serializer
 Title: serializeR, automatically cache results of statement if required and read from cache if possible
 Version: 0.0.0.9000
 Authors@R: person("Maarten", "Slagter", email = "slagter.maarten@gmail.com", role = c("aut", "cre"))
 Description: Wrapper around readRDS and writeRDS who's usage hides away typical boilerplate code for using these functions
-Depends: R (>= 3.2.1), formula.tools
+Depends: R (>= 3.2.1)
 Imports: formula.tools
 License: MIT
 LazyData: true

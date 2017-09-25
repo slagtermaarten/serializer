@@ -1,9 +1,9 @@
 # serializeR
 
 Wrapper around existing serialization infrastructure in R (writeRDS) that
-obviates typical associated boilerplate code. This project is extremely
-premeaturely published, so use at your own risk and convenience. I'm
-considering to migrate to a OOP design using reference classes.
+obviates typical associated boilerplate code. This project is premeaturely published, so 
+use at your own risk and convenience. I'm considering a migration to an OOP design using 
+R's reference classes.
 
 ## Usage example
 
@@ -62,3 +62,7 @@ To clear all objects and remove the cache folder in its entirety
 
     clear_all_objects()
 
+
+# Known issues
+
+Data.table objects don't like to be wrapped using the functionality in this package, YMMV.
